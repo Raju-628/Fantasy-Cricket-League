@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>MainWindow</class>
+    <widget class="QMainWindow" name="MainWindow">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>1013</width>
+                <height>634</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>MainWindow</string>
+        </property>
+        <widget class="QWidget" name="centralwidget">
+            <layout class="QGridLayout" name="gridLayout">
+                <!-- Label and LineEdit for Team Name -->
+                <item row="5" column="0">
+                    <layout class="QHBoxLayout" name="horizontalLayout_5">
+                        <item>
+                            <widget class="QLabel" name="label_8">
+                                <!-- ... Properties for QLabel ... -->
+                                <property name="text">
+                                    <string>Team Name</string>
+                                </property>
+                            </widget>
+                        </item>
+                        <item>
+                            <widget class="QLineEdit" name="lineEdit_7"/>
+                        </item>
+                    </layout>
+                </item>
+
+                <!-- Labels and LineEdits for Points Available/Used -->
+                <!-- ... Rest of the points-related layout ... -->
+
+                <!-- Layout for RadioButtons (BAT, BWL, AR, WKT) -->
+                <!-- ... Rest of the radio button layout ... -->
+
+                <!-- Labels and LineEdits for Players -->
+                <!-- ... Rest of the player-related layout ... -->
+
+                <!-- ListWidgets and Exit Button -->
+                <!-- ... Rest of the list widgets and exit button layout ... -->
+
+                <!-- Label for Your Selections -->
+                <item row="0" column="0">
+                    <widget class="QLabel" name="label_5">
+                        <!-- ... Properties for QLabel ... -->
+                        <property name="text">
+                            <string>Your selections</string>
+                        </property>
+                    </widget>
+                </item>
+            </layout>
+        </widget>
+        <widget class="QMenuBar" name="menubar">
+            <!-- ... Rest of the menu bar layout ... -->
+        </widget>
+        <widget class="QStatusBar" name="statusbar"/>
+    </widget>
+</ui>
