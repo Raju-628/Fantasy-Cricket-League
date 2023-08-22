@@ -1,5 +1,6 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 from evaluation import Ui_Form,QtGui
+import sys                                                                  
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -435,7 +436,6 @@ class Ui_MainWindow(object):
             conn.rollback()
 
 if __name__ == "__main__":                                                      #main function
-    import sys                                                                  #import system
     import sqlite3                                                              #import sqlite3
     conn=sqlite3.connect('players.db')
     app = QtWidgets.QApplication(sys.argv)
