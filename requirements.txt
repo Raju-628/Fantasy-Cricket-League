@@ -2,4 +2,5 @@ pandas
 numpy
 PyQt5
 ipykernel
+evaluation
 -e .
