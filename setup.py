@@ -12,8 +12,6 @@ def get_req(file_path:str)->List[str]:
         if "-e ." in requirements:
             requirements.remove("-e .")
     return requirements
-
-
 setup(
     name='Fantasy Cricket',
     version='0.0.1',
@@ -21,7 +19,5 @@ setup(
     author_email='rajugurka1@gmail.com',
     packages=find_packages(),
     install_requires = get_req('requirements.txt')
-    
-    
     
 )
